@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550608355 source:e:\programs\code blocks programs\morso\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+
