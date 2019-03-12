@@ -15,14 +15,11 @@ Program Functions-
   3.Morsetomsg()- Function to decrypt the morse code message. Uses another function called as 'decrypt()' to find letter equivalent of       morse code by using the decision tree algorithm.
   
  The user cases are- 
+ 
     1. Use . , - , for Morse letter.
-    
     2. '+' to represent end of each alphabet/digit.
-    
     3. '/' to represent end of each English word including numerics.
-    
     4. Every alphabet or digit should end with a '+'.
-    
     5. Every word should end with '/' while preceded by '+' ending the last digit/alphabet of word.
     
  
