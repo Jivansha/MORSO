@@ -16,9 +16,13 @@ Program Functions-
   
  The user cases are- 
     1. Use . , - , for Morse letter.
+    
     2. '+' to represent end of each alphabet/digit.
+    
     3. '/' to represent end of each English word including numerics.
+    
     4. Every alphabet or digit should end with a '+'.
+    
     5. Every word should end with '/' while preceded by '+' ending the last digit/alphabet of word.
     
  
