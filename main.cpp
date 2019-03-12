@@ -1,7 +1,7 @@
 /*
  use . , - , '+'to represent end of letter, / to represent end of word
  every alphabet or digit should end with a +
- every word should end with / without preceded by + ending the last digit of the alphabet of digit
+ every word should end with / while preceded by + ending the last digit of the alphabet of digit
 */
 
 
@@ -20,7 +20,7 @@ char decrypt(char letter[codel]);
 string Morselist(char code_letter);
 void msgtoMorse();
 void Morsetomsg();
-void Morsequiz();
+
 
 int main()
 {
@@ -257,6 +257,8 @@ string Morselist(char code_letter){
      return code;
 }
 
+//Function to encrypt morse code message
+
 void msgtoMorse(){
      string msg;
 
@@ -325,10 +327,9 @@ void Morsetomsg(){
           }
           if(k>codel-2 && (msg.at(i+1)!='/' || msg.at(i+1)!='+')){
               cout<<"\tInvalid morse code\n";
-              // mainmenu();
           }
      }
-     // cout<<letter;
+
 }
 
 // Decrypting the morse code using the decision tree algorithm
